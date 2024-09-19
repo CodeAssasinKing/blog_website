@@ -1,0 +1,20 @@
+{% extends 'core/layout.html' %}
+{% load static %}
+{% block title %}My blog{% endblock %}
+{% block body %}
+<!-- Blog Post Section -->
+<section class="blog-posts">
+    <div class="post">
+        <h2>First Blog Post</h2>
+        <p>Posted on <span class="date">September 19, 2024</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget...</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="post">
+        <h2>Second Blog Post</h2>
+        <p>Posted on <span class="date">September 18, 2024</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget...</p>
+        <a href="#">Read More</a>
+    </div>
+</section>
+{% endblock %}
